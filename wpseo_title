@@ -1,0 +1,8 @@
+// Example filter
+add_filter('wpseo_title', 'custom_modify_yoast_title');
+function custom_modify_yoast_title($title) {
+    // Modify the title as per your requirements
+    $modifiedTitle = 'Some custom Title';
+
+    return $modifiedTitle;
+}
